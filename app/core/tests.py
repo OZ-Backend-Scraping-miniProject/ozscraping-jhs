@@ -31,3 +31,4 @@ class CommandTests(SimpleTestCase):
         call_command('wait_for_db')
 
         self.assertEqual(patched_getitem.call_count, 7)
+        
