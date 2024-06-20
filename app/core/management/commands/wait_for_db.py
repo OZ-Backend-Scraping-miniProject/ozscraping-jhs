@@ -21,3 +21,4 @@ class Command(BaseCommand):
                 time.sleep(1)
         self.stdout.write(self.style.SUCCESS("Congratue!\
             PostgreSQL Connection Success!!!"))
+        
